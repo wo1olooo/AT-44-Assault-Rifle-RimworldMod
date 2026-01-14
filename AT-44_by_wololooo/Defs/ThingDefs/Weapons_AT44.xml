@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<Defs>	
+  <ThingDef ParentName="BaseHumanMakeableGun">	
+	<!-- Define the gun name, labels etc. -->
+    <defName>Gun_AT44_wololooo</defName>
+    <label>AT 44</label>
+	
+    <description>The AT-44 is a volatile relic from the final chapters of Old Earth’s Second World War. Conceived by the visionary engineer Fedorov as a competitor in the race for the first true assault rifle, it was built to harness the revolutionary 7.62×39mm cartridge. 
+	
+It promised to merge the precision of a battle rifle with the suppressing storm of a machine gun, but it was a weapon born too soon.
+
+On the ancient testing grounds the AT-44 fractured. It was intricate, temperamental, and its mechanisms were too advanced for the crude metallurgy of the time. While rival designs moved forward, Fedorov’s prototype was deemed a failure and buried beneath the expanding war machine. It became a ghost meant to fade into silence.
+
+But the Rim offers second chances to even the most broken things. 
+
+Salvaged from the corrupted memory core of a derelict freighter, the blueprints were resurrected by a weaponsmith who saw potential where history saw defeat. 
+
+Rebuilt with modern alloys that cure its original fragility, the AT-44 has been reborn as a heavy, brutal instrument of war. It kicks with the anger of a forgotten soldier and serves the desperate colonists of the frontier with a reliability it was denied on Earth. A master’s rejected vision finally finding its victory among the stars.
+
+~wololooo
+</description>
+	
+	
+	<graphicData>
+      <texPath>Things/Equipment/wololooo_AT44</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.20</drawSize>
+    </graphicData>
+    
+    <soundInteract>Interact_Rifle</soundInteract>
+    
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      
+      <researchPrerequisite>Research_AT44_by_wololooo</researchPrerequisite>
+      
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      
+      <displayPriority>442</displayPriority>
+    </recipeMaker>
+    
+    <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+    
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <Mass>4.7</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.38</AccuracyLong>
+      <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+      <MarketValue>550</MarketValue>
+      <MaxHitPoints>70</MaxHitPoints>
+    </statBases>
+    
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <WoodLog>20</WoodLog>
+    </costList>
+    
+    <smeltable>true</smeltable>
+    
+    <smeltProducts>
+      <Steel>50</Steel>
+    </smeltProducts>
+    
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AT44_762by39mm</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <range>27</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <soundCast>wololooo_at44_firing_sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+      </li>
+    </verbs>
+    
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>AT44</li>
+      <li>wololoooSovietPack</li>
+    </weaponTags>
+    
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power> <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    
+    <comps>
+      <li Class="CompProperties_Biocodable" /> 
+    </comps>
+    
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AT44_762by39mm</defName>
+    <label>7.62×39mm AT44 Bullet</label>
+
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      
+      <speed>70</speed> 
+      <stoppingPower>1.5</stoppingPower> <armorPenetrationBase>0.38</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  
+</Defs>

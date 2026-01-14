@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+  
+    <defName>Research_AT44_by_wololooo</defName>
+    <label>AT44</label>
+	<description>A volatile relic from Old Earth’s Second World War, the AT-44 was Fedorov’s failed attempt to harness the 7.62×39mm cartridge. Too fragile for its time, the design was abandoned until salvaged schematics were recovered from a crashed freighter. 
+	
+	Rebuilt with modern alloys, it is now a heavy, rhythmic beast. Though difficult to control, its raw stopping power is undeniable.
+
+	A failed experiment resurrected to dominate the future.
+
+~wololooo</description>
+
+	<tab>SovietGuns_by_wololooo</tab>
+	
+    <baseCost>2800</baseCost>
+    <techLevel>Industrial</techLevel>
+	
+	<prerequisites>
+      <li>Gunsmithing</li>
+	  <li>PrecisionRifling</li>
+	  <li>Soviet_Research_Program</li>
+	  <li>Soviet_Assault_Rifle_Program</li>
+    </prerequisites>
+	
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+	
+
+  </ResearchProjectDef>
+
+</Defs>

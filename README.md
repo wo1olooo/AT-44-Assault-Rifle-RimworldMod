@@ -7,6 +7,8 @@ Centuries later, fragments of the AT-44’s design were rediscovered on the Rim.
 
 A failed experiment. A master’s vision. Finally given a second chance among the stars.
 
+---
+
 ⚙ Features
 Adds the AT-44, a heavy prototype assault rifle designed by Fedorov
 
@@ -20,6 +22,8 @@ Integrated into the Soviet Rifle Research tech tree
 
 Unique RimWorld-style lore and description
 
+---
+
 ✅ Requirements
 Soviet Rifle Research Tab by Wololooo
 
@@ -27,12 +31,16 @@ AS-44 Assault Rifle by Wololooo
 
 ⚠️ Load this mod after the Research Tab and the AS-44 mod in your load order
 
+---
+
 🔄 Compatibility
 Compatible with RimWorld 1.5 / 1.6+
 
 XML-only (no Harmony or C#)
 
 Safe to add or remove mid-save
+
+---
 
 ⭐ Credits & Support
 Mod, XML, balance, and lore writing by Wololooo

@@ -1,4 +1,7 @@
-AT-44 — A Master’s Prototype Reborn
+# AT-44 — A Master’s Prototype Reborn
+
+---
+
 Recovered from corrupted archives deep in a derelict Rimworld databank, the AT-44 is a ghost of a weapon — a volatile relic from the final chapters of Old Earth’s Second World War, born from raw ambition rather than refinement.
 
 Originally conceived by the legendary engineer Fedorov to chamber the newly-developed 7.62×39mm cartridge, the AT-44 was a brutal attempt to put squad-level firepower into a single soldier’s hands. But the design was too wild for its time. On ancient testing grounds, the rifle fractured under stress and was abandoned, buried by history while simpler weapons took the stage.
